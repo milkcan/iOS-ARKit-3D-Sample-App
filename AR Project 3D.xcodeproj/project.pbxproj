@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		311A9F301EEB401C009F9415 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311A9F2F1EEB401C009F9415 /* AppDelegate.swift */; };
-		311A9F321EEB401C009F9415 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 311A9F311EEB401C009F9415 /* art.scnassets */; };
 		311A9F341EEB401C009F9415 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311A9F331EEB401C009F9415 /* ViewController.swift */; };
 		311A9F371EEB401C009F9415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311A9F351EEB401C009F9415 /* Main.storyboard */; };
 		311A9F391EEB401C009F9415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311A9F381EEB401C009F9415 /* Assets.xcassets */; };
 		311A9F3C1EEB401C009F9415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311A9F3A1EEB401C009F9415 /* LaunchScreen.storyboard */; };
+		313D13D61EFD8FA900733056 /* milkcan.dae in Resources */ = {isa = PBXBuildFile; fileRef = 313D13D51EFD8FA900733056 /* milkcan.dae */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		311A9F2C1EEB401C009F9415 /* AR Project 3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Project 3D.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		311A9F2F1EEB401C009F9415 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		311A9F311EEB401C009F9415 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		311A9F331EEB401C009F9415 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		311A9F361EEB401C009F9415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		311A9F381EEB401C009F9415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		311A9F3B1EEB401C009F9415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		311A9F3D1EEB401C009F9415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		313D13D51EFD8FA900733056 /* milkcan.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; name = milkcan.dae; path = ../../../../Desktop/milkcan.dae; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +56,8 @@
 		311A9F2E1EEB401C009F9415 /* AR Project 3D */ = {
 			isa = PBXGroup;
 			children = (
+				313D13D51EFD8FA900733056 /* milkcan.dae */,
 				311A9F2F1EEB401C009F9415 /* AppDelegate.swift */,
-				311A9F311EEB401C009F9415 /* art.scnassets */,
 				311A9F331EEB401C009F9415 /* ViewController.swift */,
 				311A9F351EEB401C009F9415 /* Main.storyboard */,
 				311A9F381EEB401C009F9415 /* Assets.xcassets */,
@@ -125,9 +125,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				311A9F321EEB401C009F9415 /* art.scnassets in Resources */,
 				311A9F3C1EEB401C009F9415 /* LaunchScreen.storyboard in Resources */,
 				311A9F391EEB401C009F9415 /* Assets.xcassets in Resources */,
+				313D13D61EFD8FA900733056 /* milkcan.dae in Resources */,
 				311A9F371EEB401C009F9415 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +186,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -241,6 +243,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -316,6 +320,7 @@
 				311A9F421EEB401C009F9415 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
